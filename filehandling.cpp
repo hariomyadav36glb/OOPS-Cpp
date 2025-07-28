@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    // open the file
+    ofstream fout;
+    fout.open("zoom.txt");
+    // write kr sakta hu
+    fout<<"hello world";
+    fout.close(); /*release resources aquired*/
+}
